@@ -12,49 +12,45 @@
   background: #222;
   padding: 1rem 0;
   align-items: center;
-}
 
-.footer-div-1 ul,
-.footer-div-2 ul {
-  justify-content: center;
-  padding-inline-start: 0;
-  width: 50%;
-  list-style: none;
-  margin-left: auto;
-}
+  ul {
+    justify-content: center;
+    padding-inline-start: 0;
+    width: 50%;
+    list-style: none;
+    margin-left: auto;
+  }
 
-.footer-div-1 li a,
-.footer-div-2 li a:active,
-.footer-div-2 li a:visited {
-  text-decoration: none;
-  color: aliceblue;
-}
+  li {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
 
-.footer-div-1 li a:hover {
-  color: rgb(176, 210, 240);
-}
+  img {
+    display: inline-block;
+    border-radius: 8px;
+    height: 16px;
+  }
 
-.footer-div-1 li a p img {
-  display: inline-block;
-  margin-right: 0.5rem;
-  border-radius: 8px;
-}
+  p {
+    display: inline-block;
+    text-align: center;
+    margin-left: 0.3rem;
+  }
 
-.footer-div-2 li a,
-.footer-div-2 li a:active,
-.footer-div-2 li a:visited {
-  text-decoration: none;
-  color: aliceblue;
-}
+  a {
+    text-decoration: none;
+    color: aliceblue;
 
-.footer-div-2 li a:hover {
-  color: rgb(176, 210, 240);
-}
-
-.footer-div-2 li a p img {
-  display: inline-block;
-  margin-right: 0.5rem;
-  border-radius: 8px;
+    &:active,
+    &:visited {
+      color: aliceblue;
+    }
+    &:hover {
+      color: rgb(176, 210, 240);
+    }
+  }
 }
 
 .footer-div-3 {
@@ -105,15 +101,14 @@
     font-size: 2rem;
   }
 
-  .footer-div-1 li a p img,
-  .footer-div-2 li a p img {
+  .footer-div-1 img,
+  .footer-div-2 img {
     height: 32px;
     border-radius: 16px;
   }
 }
 
 @media only screen and (min-width: 3800px) {
-
   .footer-div-2 li a,
   .footer-div-2 li a:active,
   .footer-div-2 li a:visited {

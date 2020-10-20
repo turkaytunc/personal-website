@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.scss';
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer-main-wrap">
       <div className="footer-div-1">
@@ -13,14 +13,11 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>
-                <img
-                  src={`${process.env.PUBLIC_URL}/footer/github-icon-white.png`}
-                  height="16px"
-                  alt="github-img"
-                />
-                GitHub
-              </p>
+              <img
+                src={`${process.env.PUBLIC_URL}/footer/github-icon-white.png`}
+                alt="github-img"
+              />
+              <p>GitHub</p>
             </a>
           </li>
           <li>
@@ -30,14 +27,11 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>
-                <img
-                  src={`${process.env.PUBLIC_URL}/footer/linkedin.png`}
-                  height="16px"
-                  alt="linkedin-img"
-                />
-                LinkedIn
-              </p>
+              <img
+                src={`${process.env.PUBLIC_URL}/footer/linkedin.png`}
+                alt="linkedin-img"
+              />
+              <p>LinkedIn</p>
             </a>
           </li>
           <li>
@@ -47,14 +41,11 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>
-                <img
-                  src={`${process.env.PUBLIC_URL}/footer/youtube.png`}
-                  height="16px"
-                  alt="youtube-img"
-                />
-                YouTube
-              </p>
+              <img
+                src={`${process.env.PUBLIC_URL}/footer/youtube.png`}
+                alt="youtube-img"
+              />
+              <p>YouTube</p>
             </a>
           </li>
         </ul>
@@ -68,14 +59,11 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>
-                <img
-                  src={`${process.env.PUBLIC_URL}/footer/instagramlogo.png`}
-                  height="16px"
-                  alt="instagram-img"
-                />
-                Instagram
-              </p>
+              <img
+                src={`${process.env.PUBLIC_URL}/footer/instagramlogo.png`}
+                alt="instagram-img"
+              />
+              <p>Instagram</p>
             </a>
           </li>
           <li>
@@ -85,14 +73,11 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>
-                <img
-                  src={`${process.env.PUBLIC_URL}/footer/twitterlogo.jpg`}
-                  height="16px"
-                  alt="twitter-img"
-                />
-                Twitter
-              </p>
+              <img
+                src={`${process.env.PUBLIC_URL}/footer/twitterlogo.jpg`}
+                alt="twitter-img"
+              />
+              <p>Twitter</p>
             </a>
           </li>
           <li>
@@ -102,14 +87,11 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>
-                <img
-                  src={`${process.env.PUBLIC_URL}/footer/itchiologo.png`}
-                  height="16px"
-                  alt="itchio-img"
-                />
-                Itch.io
-              </p>
+              <img
+                src={`${process.env.PUBLIC_URL}/footer/itchiologo.png`}
+                alt="itchio-img"
+              />
+              <p>Itch.io</p>
             </a>
           </li>
         </ul>
@@ -119,6 +101,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;
