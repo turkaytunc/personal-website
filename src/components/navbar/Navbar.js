@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./navbar.scss";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import './navbar.scss';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,11 +21,6 @@ function Navbar() {
           <li className="navbar-li">
             <Link className="navbar-a" to="/projects">
               Projects
-            </Link>
-          </li>
-          <li className="navbar-li">
-            <Link className="navbar-a" to="/articles">
-              Articles
             </Link>
           </li>
           <li className="navbar-li">
