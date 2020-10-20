@@ -2,6 +2,7 @@ import React from 'react';
 import './homepage.scss';
 
 function HomePage() {
+  document.title = 'Home';
   return (
     <div className="homepage-wrapper">
       <p className="intro">Türkay TUNÇ</p>
