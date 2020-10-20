@@ -5,8 +5,8 @@ function Contact() {
   document.title = 'Contact';
   return (
     <div className="contact-wrapper-div">
-      <h2
-        className="contact-h2"
+      <h3
+        className="contact-h3"
         style={{ display: `flex`, alignItems: `center`, marginLeft: `2rem` }}
       >
         <img src={`${process.env.PUBLIC_URL}/mail.png`} alt="mail"></img>
@@ -20,9 +20,9 @@ function Contact() {
         >
           turkaytunc00@gmail.com
         </a>
-      </h2>
-      <h2
-        className="contact-h2"
+      </h3>
+      <h3
+        className="contact-h3"
         style={{ display: `flex`, alignItems: `center`, marginLeft: `2rem` }}
       >
         <img
@@ -41,7 +41,7 @@ function Contact() {
         >
           LinkedIn
         </a>
-      </h2>
+      </h3>
     </div>
   );
 }

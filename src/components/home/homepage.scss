@@ -2,9 +2,12 @@ $dark-blue: rgb(236, 236, 236);
 $light-blue: rgb(255, 255, 255);
 $lighter-blue: rgb(255, 255, 255);
 $homepage-background-color: rgb(255, 255, 255);
-$homepage-background-color-2: linear-gradient(180deg, $lighter-blue 0%, $light-blue 75%, $dark-blue 95%);
-
-
+$homepage-background-color-2: linear-gradient(
+  180deg,
+  $lighter-blue 0%,
+  $light-blue 75%,
+  $dark-blue 95%
+);
 
 .intro {
   font-size: 2.5rem;
@@ -26,8 +29,8 @@ $homepage-background-color-2: linear-gradient(180deg, $lighter-blue 0%, $light-b
   padding-bottom: 10rem;
   box-sizing: border-box;
   background: $homepage-background-color;
+  margin-bottom: 10vh;
 }
-
 
 @media only screen and (max-width: 520px) and (min-width: 0px) {
   .intro {
@@ -52,7 +55,6 @@ $homepage-background-color-2: linear-gradient(180deg, $lighter-blue 0%, $light-b
 @media only screen and (min-width: 3800px) {
   .intro {
     font-size: 4rem;
-
   }
 }
 

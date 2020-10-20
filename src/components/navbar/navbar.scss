@@ -24,7 +24,7 @@
 
 .navbar-ul {
   display: grid;
-  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
   justify-content: flex-end;
   list-style: none;
   padding-inline-start: 0;
@@ -33,7 +33,6 @@
 .navbar-li {
   padding: 0.5rem;
   margin-left: 0;
-
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
