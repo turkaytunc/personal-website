@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './navbar.scss';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -40,6 +40,6 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

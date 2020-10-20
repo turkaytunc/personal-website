@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.scss';
 
-function Contact() {
+const Contact = () => {
   document.title = 'Contact';
   return (
     <div className="contact-wrapper-div">
@@ -44,6 +44,6 @@ function Contact() {
       </h3>
     </div>
   );
-}
+};
 
 export default Contact;

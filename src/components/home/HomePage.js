@@ -1,7 +1,7 @@
 import React from 'react';
 import './homepage.scss';
 
-function HomePage() {
+const HomePage = () => {
   document.title = 'Home';
   return (
     <div className="homepage-wrapper">
@@ -16,6 +16,6 @@ function HomePage() {
       <p className="intro">Makes games and creates tools with Unity and C#.</p>
     </div>
   );
-}
+};
 
 export default HomePage;
