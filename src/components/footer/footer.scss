@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   background: #222;
   color: azure;
+  padding-top: 2rem;
 }
 
 .footer-div-1,
@@ -83,16 +84,11 @@
     padding-bottom: 10vh;
   }
 
-  .footer-div-2 li a,
-  .footer-div-2 li a:active,
-  .footer-div-2 li a:visited {
-    font-size: 2rem;
-  }
-
-  .footer-div-1 li a,
-  .footer-div-2 li a:active,
-  .footer-div-2 li a:visited {
-    font-size: 2rem;
+  .footer-div-1,
+  .footer-div-2 {
+    a {
+      font-size: 2rem;
+    }
   }
 
   .footer-div-3-p {
@@ -109,16 +105,11 @@
 }
 
 @media only screen and (min-width: 3800px) {
-  .footer-div-2 li a,
-  .footer-div-2 li a:active,
-  .footer-div-2 li a:visited {
-    font-size: 3rem;
-  }
-
-  .footer-div-1 li a,
-  .footer-div-2 li a:active,
-  .footer-div-2 li a:visited {
-    font-size: 3rem;
+  .footer-div-1,
+  .footer-div-2 {
+    a {
+      font-size: 3rem;
+    }
   }
 
   .footer-div-3-p {
@@ -128,6 +119,6 @@
   }
 
   .footer-main-wrap {
-    padding-top: 20vh;
+    margin-top: 20vh;
   }
 }
