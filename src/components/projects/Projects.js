@@ -30,11 +30,18 @@ const Projects = () => {
       <ProjectCard
         title={'Digital Clock'}
         imgSource={'digital-clock.png'}
-        techs={['Sass', 'Jest', 'TravisCI', 'Coveralls', 'Reactjs']}
+        techs={['Sass', 'Jest', 'TravisCI', 'Coveralls', 'fetchAPI']}
         githubLink={'https://github.com/turkaytunc/digital-clock'}
         liveProject={'https://turkaytunc.github.io/digital-clock/'}
       />
 
+      <ProjectCard
+        title={'Password Generator'}
+        imgSource={'password-generator.png'}
+        techs={['Reactjs', 'Jest', 'Sass', 'Hooks']}
+        githubLink={'https://github.com/turkaytunc/pass-gen'}
+        liveProject={'https://turkaytunc.github.io/pass-gen/'}
+      />
       <ProjectCard
         title={'Chef'}
         imgSource={'food.jpg'}
@@ -47,6 +54,13 @@ const Projects = () => {
         imgSource={'rest.jpg'}
         techs={['MongoDB', 'Mongoose', 'Nodejs']}
         githubLink={'https://github.com/turkaytunc/rest-api-practice'}
+      />
+      <ProjectCard
+        title={'Random Color Generator'}
+        imgSource={'random-color-generator.png'}
+        techs={['Reactjs', 'Css']}
+        githubLink={'https://github.com/turkaytunc/random-color-generator'}
+        liveProject={'https://turkaytunc.github.io/random-color-generator/'}
       />
     </div>
   );
