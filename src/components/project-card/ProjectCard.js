@@ -1,4 +1,5 @@
 import React from 'react';
+import { TechUsed } from '../tech-used/TechUsed';
 import './project-card.scss';
 
 export const ProjectCard = (props) => {
@@ -9,7 +10,7 @@ export const ProjectCard = (props) => {
         alt={''}
       />
       <div className="projectcard-title-div">{props.title}</div>
-      <h4>{props.tech}</h4>
+      <TechUsed techs={props.techs} />
     </div>
   );
 };

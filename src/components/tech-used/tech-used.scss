@@ -1,0 +1,12 @@
+.techused-ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    border: 1px solid #666;
+    margin-left: 0.2em;
+    border-radius: 20px;
+    padding: 0.2em;
+  }
+}

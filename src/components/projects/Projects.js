@@ -9,17 +9,17 @@ const Projects = () => {
       <ProjectCard
         title={'Hello'}
         imgSource={'food.jpg'}
-        tech={'mongo nodejs express'}
+        techs={['mongo', 'nodejs', 'express']}
       />
       <ProjectCard
         title={'Hello'}
         imgSource={'rest.jpg'}
-        tech={'mongo nodejs express'}
+        techs={['mongo', 'nodejsdfsfsdfsd', 'express']}
       />
       <ProjectCard
         title={'Hello'}
         imgSource={'food.jpg'}
-        tech={'mongo nodejs express'}
+        techs={['mongo', 'nodejs', 'express']}
       />
     </div>
   );
