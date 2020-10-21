@@ -10,7 +10,17 @@ const Projects = () => {
         title={'Hello'}
         imgSource={'food.jpg'}
         tech={'mongo nodejs express'}
-      ></ProjectCard>
+      />
+      <ProjectCard
+        title={'Hello'}
+        imgSource={'food.jpg'}
+        tech={'mongo nodejs express'}
+      />
+      <ProjectCard
+        title={'Hello'}
+        imgSource={'food.jpg'}
+        tech={'mongo nodejs express'}
+      />
     </div>
   );
 };

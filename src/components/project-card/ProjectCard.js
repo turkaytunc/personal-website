@@ -1,8 +1,9 @@
 import React from 'react';
+import './project-card.scss';
 
 export const ProjectCard = (props) => {
   return (
-    <div>
+    <div className="projectcard-wrapper-div">
       <img
         src={`${process.env.PUBLIC_URL}/projects/${props.imgSource}`}
         alt={''}
