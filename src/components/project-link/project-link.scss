@@ -1,6 +1,8 @@
 .project-link-wrapper {
   display: flex;
   margin-top: 1em;
+  width: 100%;
+  justify-content: center;
   a {
     &:nth-child(2) {
       margin-left: 0.5em;

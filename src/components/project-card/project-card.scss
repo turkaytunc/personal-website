@@ -29,7 +29,7 @@
   }
 
   .projectcard-title-div {
-    animation: fadeIn 2s ease-in-out forwards;
+    animation: track-out 2s ease-out forwards;
     color: #212121;
     text-shadow: 1px 1px 0 #ddd;
     width: 100%;
@@ -39,12 +39,13 @@
   }
 }
 
-@keyframes fadeIn {
-  from {
+@keyframes track-out {
+  0% {
     opacity: 0;
+    letter-spacing: -0.2em;
   }
-
-  to {
+  100% {
+    letter-spacing: 0;
     opacity: 1;
   }
 }
