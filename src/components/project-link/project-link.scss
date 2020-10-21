@@ -4,6 +4,7 @@
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  align-self: flex-end;
   padding-bottom: 1em;
   animation: text-pop-up-top 0.7s linear forwards;
   a {

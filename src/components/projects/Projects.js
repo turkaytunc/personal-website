@@ -23,9 +23,16 @@ const Projects = () => {
       <ProjectCard
         title={'Random Quote Machine'}
         imgSource={'random-quote-machine.png'}
-        techs={['Sass', 'Jest', 'Reactjs', 'TravisCI', 'Coveralls']}
+        techs={['Sass', 'Jest', 'Reactjs', 'TravisCI', 'Coveralls', 'fetchAPI']}
         githubLink={'https://github.com/turkaytunc/random-quote-machine'}
         liveProject={'https://turkaytunc.github.io/random-quote-machine/'}
+      />
+      <ProjectCard
+        title={'Digital Clock'}
+        imgSource={'digital-clock.png'}
+        techs={['Sass', 'Jest', 'TravisCI', 'Coveralls', 'Reactjs']}
+        githubLink={'https://github.com/turkaytunc/digital-clock'}
+        liveProject={'https://turkaytunc.github.io/digital-clock/'}
       />
 
       <ProjectCard
