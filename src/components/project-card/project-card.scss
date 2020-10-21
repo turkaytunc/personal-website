@@ -20,15 +20,18 @@
   }
 
   img {
+    top: 0;
     width: 100%;
+    height: minmax(500px, auto);
     border-bottom: 1px solid #eee;
     overflow: hidden;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
+    min-height: 350px;
   }
 
   .projectcard-title-div {
-    animation: track-out 2s ease-out forwards;
+    animation: track-out 1.2s ease-out forwards;
     color: #212121;
     text-shadow: 1px 1px 0 #ddd;
     width: 100%;
@@ -42,7 +45,7 @@
 @keyframes track-out {
   0% {
     opacity: 0;
-    letter-spacing: -0.2em;
+    letter-spacing: -0.5em;
   }
   100% {
     letter-spacing: 0;

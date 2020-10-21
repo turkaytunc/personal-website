@@ -7,21 +7,30 @@ const Projects = () => {
   return (
     <div className="projects-wrapper-div">
       <ProjectCard
-        title={'Hello'}
-        imgSource={'food.jpg'}
-        techs={['mongo', 'nodejs', 'express']}
-        githubLink={'https://github.com/turkaytunc/rest-api-practice'}
-        liveProject={'https://turkaytunc.itch.io/racon'}
+        title={'MD-Prev'}
+        imgSource={'md-prev.png'}
+        techs={['Sass', 'Regex', 'Reactjs', 'TravisCI', 'Bash', 'Jest']}
+        githubLink={'https://github.com/turkaytunc/md-prev'}
       />
       <ProjectCard
-        title={'Hello'}
+        title={'Study-timer'}
+        imgSource={'study-timer.png'}
+        techs={['Sass', 'Jest', 'Reactjs', 'TravisCI', 'Codecov']}
+        githubLink={'https://github.com/turkaytunc/study-timer'}
+        liveProject={'https://turkaytunc.github.io/study-timer/'}
+      />
+      <ProjectCard
+        title={'Chef'}
+        imgSource={'food.jpg'}
+        techs={['Reactjs', 'Axios', 'Sass']}
+        githubLink={'https://github.com/turkaytunc/recipe-app'}
+        liveProject={'https://turkaytunc.github.io/recipe-app/'}
+      />
+      <ProjectCard
+        title={'Restful API'}
         imgSource={'rest.jpg'}
-        techs={['mongo', 'nodejsdfsfsdfsd', 'express']}
-      />
-      <ProjectCard
-        title={'Hello'}
-        imgSource={'food.jpg'}
-        techs={['mongo', 'nodejs', 'express']}
+        techs={['MongoDB', 'Mongoose', 'Nodejs']}
+        githubLink={'https://github.com/turkaytunc/rest-api-practice'}
       />
     </div>
   );
