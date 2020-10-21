@@ -27,12 +27,19 @@ const Projects = () => {
         githubLink={'https://github.com/turkaytunc/random-quote-machine'}
         liveProject={'https://turkaytunc.github.io/random-quote-machine/'}
       />
+
       <ProjectCard
         title={'Digital Clock'}
         imgSource={'digital-clock.png'}
         techs={['Sass', 'Jest', 'TravisCI', 'Coveralls', 'fetchAPI']}
         githubLink={'https://github.com/turkaytunc/digital-clock'}
         liveProject={'https://turkaytunc.github.io/digital-clock/'}
+      />
+      <ProjectCard
+        title={'First Person Character Controller'}
+        imgSource={'fps-controller.png'}
+        techs={['C#', 'Unity', 'GLSL']}
+        githubLink={'https://github.com/turkaytunc/3D-character-controller'}
       />
 
       <ProjectCard
@@ -41,6 +48,14 @@ const Projects = () => {
         techs={['Reactjs', 'Jest', 'Sass', 'Hooks']}
         githubLink={'https://github.com/turkaytunc/pass-gen'}
         liveProject={'https://turkaytunc.github.io/pass-gen/'}
+      />
+
+      <ProjectCard
+        title={'Space Shooter'}
+        imgSource={'space-shooter.png'}
+        techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+        githubLink={'https://github.com/turkaytunc/Racon'}
+        liveProject={'https://turkaytunc.itch.io/racon'}
       />
       <ProjectCard
         title={'Chef'}
