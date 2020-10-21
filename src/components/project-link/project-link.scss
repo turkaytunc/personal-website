@@ -4,6 +4,8 @@
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 1em;
+  animation: text-pop-up-top 0.7s linear forwards;
   a {
     &:nth-child(2) {
       margin-left: 0.5em;
@@ -12,14 +14,33 @@
 
     border-radius: 3px;
     padding: 0.2em;
-    background-color: #252525;
+    background-color: #fff;
+    border: 1px solid #222;
 
-    color: white;
-
-    &:hover,
+    color: #222;
     &:active,
     &:visited {
-      color: white;
+      color: #222;
     }
+
+    &:hover {
+      color: #fff;
+      background-color: #222;
+    }
+  }
+}
+
+@keyframes text-pop-up-top {
+  0% {
+    transform: translateY(-50px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
+      0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc,
+      0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
   }
 }
