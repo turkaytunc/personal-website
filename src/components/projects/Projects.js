@@ -6,7 +6,11 @@ const Projects = () => {
   document.title = 'Projects';
   return (
     <div className="projects-wrapper-div">
-      <ProjectCard title={'Hello'}></ProjectCard>
+      <ProjectCard
+        title={'Hello'}
+        imgSource={'food.jpg'}
+        tech={'mongo nodejs express'}
+      ></ProjectCard>
     </div>
   );
 };
