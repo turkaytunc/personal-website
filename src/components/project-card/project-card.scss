@@ -1,6 +1,6 @@
 .projectcard-wrapper-div {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: min-content 1fr 1fr 1fr;
   border-radius: 4px;
   padding-bottom: 0.5em;
   border: 1px solid #ccc;
@@ -21,7 +21,6 @@
 
   img {
     width: 100%;
-    height: 100%;
     border-bottom: 1px solid #eee;
     overflow: hidden;
     border-top-left-radius: 2px;
@@ -34,8 +33,9 @@
     text-shadow: 1px 1px 0 #ddd;
     width: 100%;
     text-align: center;
-    margin: 0.5em auto;
+    margin: 0 auto;
     font-size: 2em;
+    border-bottom: 1px solid #ccc;
   }
 }
 

@@ -2,13 +2,14 @@
   display: flex;
   margin-top: 1em;
   width: 100%;
+  flex-wrap: wrap;
   justify-content: center;
   a {
     &:nth-child(2) {
       margin-left: 0.5em;
     }
     text-decoration: none;
-    border: 1px solid green;
+    border: 1px solid #ccc;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     padding: 0.2em;
