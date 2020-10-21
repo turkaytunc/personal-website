@@ -34,25 +34,21 @@
   padding: 0.5rem;
   margin-left: 0;
   box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
-
-  &:hover {
-    transition: all 0.2s linear;
-    top: 3px;
-  }
 }
 
 .navbar-a {
   text-decoration: none;
   color: aliceblue;
   font-size: 1.5rem;
+  position: relative;
 
   &:hover {
     animation-name: navbar-animation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     border-bottom: 1px solid beige;
+    transition: all 0.2s linear;
+    top: 3px;
   }
 }
 
