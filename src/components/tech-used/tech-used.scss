@@ -3,22 +3,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-bottom: 1px solid #eee;
 
   li {
-    border: 1px solid #666;
-    animation: fadeIn 1.5s ease-in forwards;
+    animation: fadeIn 1.5s linear forwards;
     margin: 0.2em;
     border-radius: 20px;
     padding: 0.1em 0.5em;
+    color: azure;
+    background-color: #222;
   }
 }
 
 @keyframes fadeIn {
   0% {
-    opacity: 0;
+    color: #222;
   }
   100% {
-    opacity: 1;
+    color: azure;
   }
 }
