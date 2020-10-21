@@ -1,7 +1,7 @@
 .projectcard-wrapper-div {
   display: flex;
   flex-direction: column;
-  border-radius: 3px;
+  border-radius: 4px;
   padding-bottom: 0.5em;
   border: 1px solid #ccc;
   align-items: center;
@@ -16,8 +16,7 @@
     transition: all 0.2s ease-out;
     top: -5px;
     border: 1px solid #aaa;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
   }
 
   img {

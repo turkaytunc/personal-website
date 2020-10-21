@@ -1,0 +1,23 @@
+.project-link-wrapper {
+  display: flex;
+  margin-top: 1em;
+  a {
+    &:nth-child(2) {
+      margin-left: 0.5em;
+    }
+    text-decoration: none;
+    border: 1px solid green;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 0.2em;
+    background-color: #252525;
+
+    color: white;
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: white;
+    }
+  }
+}

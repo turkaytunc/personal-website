@@ -10,6 +10,8 @@ const Projects = () => {
         title={'Hello'}
         imgSource={'food.jpg'}
         techs={['mongo', 'nodejs', 'express']}
+        githubLink={'https://github.com/turkaytunc/rest-api-practice'}
+        liveProject={'https://turkaytunc.itch.io/racon'}
       />
       <ProjectCard
         title={'Hello'}
