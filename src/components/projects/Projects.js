@@ -13,7 +13,7 @@ const Projects = () => {
       />
       <ProjectCard
         title={'Hello'}
-        imgSource={'food.jpg'}
+        imgSource={'rest.jpg'}
         tech={'mongo nodejs express'}
       />
       <ProjectCard

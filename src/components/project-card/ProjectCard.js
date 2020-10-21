@@ -8,7 +8,7 @@ export const ProjectCard = (props) => {
         src={`${process.env.PUBLIC_URL}/projects/${props.imgSource}`}
         alt={''}
       />
-      <h1>{props.title}</h1>
+      <div className="projectcard-title-div">{props.title}</div>
       <h4>{props.tech}</h4>
     </div>
   );
