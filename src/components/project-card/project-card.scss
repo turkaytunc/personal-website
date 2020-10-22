@@ -25,6 +25,7 @@
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     min-height: 350px;
+    max-height: 350px;
   }
 
   .projectcard-title-div {
@@ -34,7 +35,9 @@
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    font-size: 2em;
+    font-size: 1.5em;
+    min-height: 3em;
+    padding-top: 1em;
   }
 }
 
