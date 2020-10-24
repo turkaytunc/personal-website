@@ -5,17 +5,24 @@ import './project-card.scss';
 
 export const ProjectCard = (props) => {
   return (
-    <div className="projectcard-wrapper-div">
-      <img
-        src={`${process.env.PUBLIC_URL}/projects/${props.imgSource}`}
-        alt={''}
-      />
-      <div className="projectcard-title-div">{props.title}</div>
-      <TechUsed techs={props.techs} />
-      <ProjectLink
-        githubLink={props.githubLink}
-        liveProject={props.liveProject}
-      />
-    </div>
+    <a
+      href={props.liveProject ? props.liveProject : props.githubLink}
+      style={{ textDecoration: 'none' }}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <div className="projectcard-wrapper-div">
+        <img
+          src={`${process.env.PUBLIC_URL}/projects/${props.imgSource}`}
+          alt={''}
+        />
+        <div className="projectcard-title-div">{props.title}</div>
+        <TechUsed techs={props.techs} />
+        <ProjectLink
+          githubLink={props.githubLink}
+          liveProject={props.liveProject}
+        />
+      </div>
+    </a>
   );
 };
